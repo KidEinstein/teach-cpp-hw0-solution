@@ -10,7 +10,7 @@ TEST(primenumber_tests, validnumber) {
   EXPECT_EQ(5, PrimeNumber(3));
   EXPECT_EQ(17, PrimeNumber(7));
   EXPECT_EQ(31, PrimeNumber(11));
-
+  std::cout << "Current Points:10/20" << std::endl;
 }
 
 
