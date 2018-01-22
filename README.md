@@ -1,5 +1,5 @@
-#HW0 Prime Numbers
-###First Name - Last Name
+# HW0 Prime Numbers
+### Anirudh Shekhawat
 TraviCI Badge here
 
 ##Problem statement :
