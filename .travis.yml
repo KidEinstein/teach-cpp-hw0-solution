@@ -2,7 +2,6 @@ sudo: false
 language: cpp
 compiler:
   - gcc
-  - clang
 os:
   - linux
 
@@ -13,7 +12,6 @@ addons:
     packages:
     - gcc-4.8
     - g++-4.8
-    - clang
 
 before install:
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew update          ; fi
