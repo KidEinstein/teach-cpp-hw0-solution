@@ -17,9 +17,11 @@ endif ()
 set(SOURCE_FILES main.cpp )
 
 include_directories(src)
+include_directories(logger)
 
 add_subdirectory(src)
 add_subdirectory(test)
+add_subdirectory(logger)
 
 add_executable(main_executable ${SOURCE_FILES})
 
