@@ -24,4 +24,5 @@ script:
   - cd build
   - cmake -DCMAKE_CXX_COMPILER=$COMPILER .. && make
   - ./test/basic_tests/runTests
+  - cd ..
   - python logsender.py
