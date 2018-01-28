@@ -3,7 +3,7 @@ import requests
 
 assignment_id = 1
 url = 'http://ec2-user@ec2-34-238-252-233.compute-1.amazonaws.com:3000/api/send_results'
-test_results_file = open('test_results.txt')
+test_results_file = open('./build/test/basic_tests/test_results.txt')
 test_results = []
 for line in test_results_file:
     test_case = json.loads(line)
